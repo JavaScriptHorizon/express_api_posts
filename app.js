@@ -2,7 +2,7 @@ const exp = require('express');
 const cors = require('cors');
 const path = require("path");
 const app = exp();
-const origin = process.env.ORIGIN_HOST_APP || 'http://localhost:3000';
+const origin = process.env.ORIGIN_HOST_APP || 'http://localhost:3001';
 
 
 // Middleware

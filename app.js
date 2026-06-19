@@ -3,7 +3,7 @@ const redoc = require("redoc-express");
 const cors = require('cors');
 const path = require("path");
 const app = exp();
-const origin = process.env.ORIGIN_HOST_APP || 'http://localhost:3000';
+const origin = process.env.ORIGIN_HOST_APP || 'http://localhost:5173';
 
 
 // Middleware
